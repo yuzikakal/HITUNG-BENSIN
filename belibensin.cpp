@@ -59,18 +59,19 @@ int main() {
     HB = HJ + PPN;
 
     cout << endl;
-    cout << "---------------------------------" << endl;
-    cout << "        DETAIL PEMBAYARAN        " << endl;
-    cout << "---------------------------------" << endl;
+    cout << "-----------------------------------" << endl;
+    cout << "         DETAIL PEMBAYARAN         " << endl;
+    cout << "-----------------------------------" << endl;
     cout << "Bahan Bakar Yang Dibeli: " << JS << endl;
-    cout << "Jumlah Liter: " << JL << " L" << endl;
-    cout << "Harga Bahan Bakar: Rp." << HJ << endl;
-    cout << "Pajak: 10%" << endl;
-    cout << "Total Pembayaran: Rp." << HB << endl;
-    cout << "---------------------------------" << endl;
-    cout << " Terima Kasih Telah Bertransaksi " << endl;
-    cout << "---------------------------------" << endl;
+    cout << "Jumlah Liter           : " << JL << " L" << endl;
+    cout << "Harga Bahan Bakar      : Rp." << HJ << endl;
+    cout << "Pajak                  : 10%" << endl;
+    cout << "Total Pembayaran       : Rp." << HB << endl;
+    cout << "-----------------------------------" << endl;
+    cout << "  Terima Kasih Telah Bertransaksi  " << endl;
+    cout << "-----------------------------------" << endl;
     cout << endl;
 
     return 0;
+
 }
